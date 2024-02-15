@@ -42,6 +42,11 @@
     font-size: 25px;
 }
 
+.card h4 {
+    color: #7B8C3E;
+    font-size: 14px;
+}
+
 .links {
     display: flex;
     flex-direction: column;
