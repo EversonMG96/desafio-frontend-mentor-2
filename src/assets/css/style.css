@@ -21,7 +21,17 @@
 .card {
     background: #262626;
     width: 400px;
+    padding-top: 30px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
