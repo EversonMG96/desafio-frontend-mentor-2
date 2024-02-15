@@ -40,11 +40,18 @@
     color: #F2F2F2;
     font-weight: bold;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .card h4 {
     color: #7B8C3E;
     font-size: 14px;
+}
+
+.card p {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
 }
 
 .links {
@@ -60,7 +67,7 @@
 }
 
 .links a {
-    color: #F2F2F2;
+    color: #fff;
     background: #737373;
     width: 80%;
     height: 40px;
@@ -68,4 +75,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.links a:hover {
+    background: #7B8C3E;
+    box-shadow: #262626 25px 10px 25px 10px;
 }
